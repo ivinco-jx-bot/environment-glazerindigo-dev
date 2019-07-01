@@ -1,0 +1,34 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAN5BP7jnCLttVo1czzbXfdAwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkNTYzNWJkZmEtZGYzOS00NGRhLWIzMzMtODY2M2ZiZTMyNmYw
+    MB4XDTE5MDcwMTEzMjU0MFoXDTI0MDYyOTE0MjU0MFowLzEtMCsGA1UEAxMkNTYz
+    NWJkZmEtZGYzOS00NGRhLWIzMzMtODY2M2ZiZTMyNmYwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAxIUMh0spMNozrzYQ4fkXghlIAOg9+j/yWegkumj7
+    K51MpYSsolTj5L2L1SrW3xrEYa+a4wG+TGuEumIY43QBRtwV77i32hag6rffMMSU
+    JujMjBtYq1LwRGw6zPSMcl5So8UiXUx2VDZ6WKknw84ZXkwo6EToBQ67y6g2deuz
+    relvpZCcNMIg2GaqkrBgCGGy7sMs4jlhmtyXDoyLaYLQBrx4MyTujAPPuw+Pwr3G
+    DJFWD4/FFgZpM0nq9ouycxcKaQPgCIG2t0au6kLM0SQnUu0bi6uBwVdfQF/JeASz
+    N4VGKn+OrskftjpmZz/IGGRzCZ3XBcO/5Y1cg4lJ405kqwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    MJuhAHPJZhh7tUf2KZLv0px5XtYNmrtA+TaHhU+449Lxm3qXMVIMeRh7q5MPcX5S
+    JVLz7eyjC9QH2A9wBbotHDc9QG1STKKS48aJMyQfa7W5rJjabeFSFiLypFULvMmp
+    GdyDK/O4/EbvC+BiZ3JEZNzSkItmpjlrJV+OI1mq6AhMsvx/11+uB3FBpBwJR3xd
+    UYoUvTtBp4qaeQwSY5mXLYnZg5IiYUY+0TQvZZCznOjzb0l9JxjGlxcZdYtJ4bNT
+    IY1SG2JAdf5dn/0qorFvttwPBIiCNJDLJ4eodbTO+/k1qV1B027w4oRWzFo5fwqk
+    bSzcZtoVlxvPvpEF5e3GXA==
+    -----END CERTIFICATE-----
+  clusterName: mythshine
+  jx-install-version: 2.0.370
+  kubeProvider: gke
+  projectID: kubernetes-ivinco-prod
+  secretsLocation: vault
+  server: https://35.228.85.249
+  systemVaultName: jx-vault-mythshine
+  zone: europe-north1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
